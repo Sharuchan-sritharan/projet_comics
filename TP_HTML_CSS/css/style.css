@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap%27');
+h1, h2{
+    font-family : 'Zhi Mang Xing';
+}
+html{
+    font-size: 70%;
+    background: #222 url(https://i.imgur.com/HWu44Bv.png)no-repeat fixed center / cover;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+header > h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 6.0rem;
+}
+h1,h2,ol,p{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+:root{
+    --color-bg-default: rgb(192, 57, 43);
+    --color-link: rgb(3, 115, 167);
+    --color-body: #fafafa;
+    --header-color: rgb(52, 152, 219);
+}
+header, main{
+    max-width: 80rem;
+    border: 0.1rem solid transparent;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+header{
+    margin: 2rem auto 0;
+    padding: .5rem;
+}
+header h1:before{
+    content: '\2605'; 
+    color: red;
+    margin-right: .5rem;
+    vertical-align: 0.1rem;
+}
+main{
+    padding: .5rem;
+}
+nav ol{
+    padding-left: 3.0rem;
+    margin: 1.8rem 0;
+}
+nav ol li{
+    text-transform: lowercase;
+    line-height: 2.5rem;
+}
+section h2, nav h2{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: var(--header-color);
+    line-height: 4.5rem;
+    text-transform: capitalize;
+    color: #ffffff;
+    padding: .5rem;
+}
+section .history:target{
+    background-color: var(--color-bg-default);
+}
+section div img{
+    display: block;
+    width: 100%;
+}
+section{
+    padding-bottom: .5rem;
+}
+main footer{
+    text-align: center;
+    text-transform:lowercase;
+    padding: .5rem;
+}
