@@ -1,4 +1,4 @@
-Comics DC : les justiciers 
-Sritharan Sharuchan 17/11/2020
+Comics DC
+Sritharan Sharuchan
 
 lien :https://github.com/Sharuchan-sritharan/projet_comics.git
